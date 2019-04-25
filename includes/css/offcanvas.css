@@ -1,0 +1,223 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  
+}
+body {
+    padding-top: 80px;
+    background-color: #ccccff !important;
+}
+footer {
+  padding: 30px 0;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -100%; /* 12 columns */
+  }
+
+  .row-offcanvas-right.active
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -100%; /* 12 columns */
+  }
+
+  .row-offcanvas-left.active
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+.list-group {
+
+    margin-bottom: 30px;
+}
+
+
+.mybtn:hover{
+   background: black;
+    cursor: pointer;
+}
+.navbar-btn{
+  margin-right: 10px;
+  cursor: pointer;
+}
+.title-photo input.upload-photo {
+        color: black;
+        height: 2em;
+        line-height: 1.5em;
+        font-size: 0.75em;
+        margin left: 20px;
+    }
+    .title-photo .badge {
+        position: absolute;
+        right: 24px;
+        bottom: -26px;
+    }
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+.text-muted {
+  margin: 20px 0;
+}
+ .form-signin{
+  padding-top: 70px;
+    padding-bottom: 10px;
+    margin:0 auto; 
+}
+.form-signin {
+  max-width: 530px;
+  padding: 15px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.my_pic{
+  padding: 1px 2px !important;
+}
+.myclass h2{
+  
+  border-bottom: 3px dashed #066cd2 !important;
+  color: #000 !important;
+  margin: 0 0 2px !important;
+  padding:5px !important;
+  text-shadow:0 1px 1px #fff !important;
+}
+.dis {
+    height: 38px !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    width: 74px !important;
+}
+.mybadge{
+  color: black !important;
+
+}
+.img-thumbnail {
+    /* max-width: 250px!important; */
+    width: 250px !important;
+    height: 280px !important;
+    
+}
+.hpack{
+  width: 240px !important;
+    height: 66px !important;
+    display: block !important;
+    overflow: hidden !important;
+    border: 2px dashed #9999de !important;
+    padding: 5px 5px !important;
+    background-color: #b0b0f1 !important;
+    color: black !important;
+    text-decoration: none !important;
+}
+.imgpro{
+  height: unset !important;
+}
+.roundbox{
+    /* padding: 1em 1em 0 1em; */
+   /* width: 700px;*/
+    /*height: 520px;*/
+    height: 305px;
+    padding: 10px 5px;
+    border-bottom: 2px dashed;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.userbox
+
+.info {
+    position: relative;
+    width: 500px;
+    height: auto;
+    float: left;
+}
+
+.title-photo{
+    width: 300px;
+    height: auto;
+  
+    float: right;
+
+
+}
+.pinfo {
+    margin-left: 25px;
+}
+.hhpack{
+      width: 640px !important;
+    height: 66px !important;
+    display: block !important;
+    overflow: hidden !important;
+    border: 2px dashed #9999de !important;
+    padding: 5px 5px !important;
+    background-color: #b0b0f1 !important;
+    color: black !important;
+    text-decoration: none !important;
+}

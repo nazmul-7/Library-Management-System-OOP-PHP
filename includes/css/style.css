@@ -1,0 +1,228 @@
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*.......My code.......*/
+
+.wrapper{
+
+    height: 660px;
+    width: 1350px;
+    background-color: gray;
+}
+header{
+    height: 135px;
+    width: 1364px;
+    background-color: #544b80;
+}
+
+section{
+
+   height: 513px;
+    width: 1364px;
+    background-color:#544b80; 
+}
+
+footer{
+    height: 90px;
+    width: 1364px;
+    background-color: black;
+}
+li a{
+
+    color: white;
+    text-decoration: none;
+}
+.logo{
+float: left;
+padding-left: 10px;
+
+
+
+}
+.logo img{
+
+width: 95px;
+height: 95px;
+margin-left: 80px;
+margin-top: 5px;
+
+
+}
+nav{
+    
+    word-spacing: 1px;
+    padding: 20px;
+    color: white;
+}
+nav li{
+   
+    display: inline-block;
+    line-height: 80px;
+}
+.box{
+
+    height: 300px;
+    width:450;
+    background-color:white ;
+    margin:20 auto ;
+
+}
+
+ul{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li {
+
+    float: left;
+    width: 200px;
+    height: 40pxpx;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color: green;
+
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+
+
+/*-----admin login------*/
+
+.login{
+    text-align: center;
+    margin: 4px 2px;
+    padding: 15px 32px;
+      text-decoration: none;
+      border: none;
+
+}
+
+/*reg form*/
+.reg_img
+{
+    height: 630px;
+    margin-top: 0px;
+    background-image: url("images/4.png");
+}
+.box2
+{
+    height: 589px;
+    width: 400px;
+    background-color: black;
+    margin: 0px auto;
+    opacity: .7;
+    color: white;
+    padding: 20px;
+}
+.form control{
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,28 @@
+<?php
+
+/**
+*  main model
+*/
+
+class config{
+
+	protected $db = array();
+	protected $FB = array();
+	protected $helper = array();
+	
+	public function __construct(){
+		$dsn = 'mysql:dbname=db_stack; host=localhost';
+		$user = 'root';
+		$pass = '';
+		$this->db= new database($dsn, $user, $pass);
+
+		$this->FB = new \Facebook\Facebook([
+			'app_id' => '1462930533743396',
+			'app_secret' => '9b87ceb8cbd98e67a06bd282515773a0',
+			'default_graph_version' => 'v2.10'
+		]);
+		$this->helper = $this->FB->getRedirectLoginHelper();
+	}
+}
+
+?>
